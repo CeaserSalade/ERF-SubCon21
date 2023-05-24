@@ -9,33 +9,60 @@
     <link rel="stylesheet" href="/stylesheet/style.css" />
 
     <script src="/script/main.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
   </head>
 
   <body>
-    <div id="header">
-      <div class="container">
-        <nav>
-          <img src="#" class="logo" alt="logoHere" />
-          <ul id="sidemenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <div style="text-align: center" class="header-text">
-          <p>Eindhoven rooftop festival</p>
-          <h1>
-            Hi, we are <span>SubCon 21</span><br />
-            ...
-          </h1>
+    <!-- Header -->
+    <header>
+      <a href="#home"><img src="/img/SubCon21Logo.png" alt="LogoHere" class="logo" /></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
 
-          <button class="button type1">
-            <span class="btn-txt">Tickets</span>
-          </button>
-        </div>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#timetable">Time Table</a></li>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <!-- Home  -->
+    <section class="home" id="home">
+      <div class="home-text">
+        <h1>Buy Tickets</h1>
+        <h2>Buy Your tickets<br />Whilst There here</h2>
+        <a href="#" class="btn">Tickets</a>
       </div>
-    </div>
+
+      <div class="home-img">
+        <img src="#" alt="Home Image Please" />
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" itemref="about">
+      <div class="about-img">
+        <img src="#" alt="About Image Please" />
+      </div>
+
+      <div class="about-text">
+        <span>About Us</span>
+        <h2>We want to change peoples view about you!</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quaerat deleniti numquam, veritatis hic enim
+          fugit aliquam, sunt perspiciatis omnis magni, modi laboriosam iure nemo ratione ipsam incidunt doloribus
+          fugiat aliquid eveniet dolorem excepturi voluptas? Delectus cumque ea molestias nostrum, facilis alias aliquam
+          fuga, tenetur fugit aperiam ullam labore reiciendis?
+        </p>
+      </div>
+    </section>
   </body>
 </html>

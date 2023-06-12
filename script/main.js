@@ -26,8 +26,7 @@ let data = {
     nl: "Dutch",
     abouttextspan: "About Us",
     abouttexth2: "We want to change peoples view about you!",
-    abouttextp:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quaerat deleniti numquam, veritatis hic enim fugit aliquam, sunt perspiciatis omnis magni, modi laboriosam iure nemo ratione ipsam incidunt doloribus fugiat aliquid eveniet dolorem excepturi voluptas? Delectus cumque ea molestias nostrum, facilis alias aliquam fuga, tenetur fugit aperiam ullam labore reiciendis?",
+    abouttextp: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quaerat deleniti numquam, veritatis hic enim fugit aliquam, sunt perspiciatis omnis magni, modi laboriosam iure nemo ratione ipsam incidunt doloribus fugiat aliquid eveniet dolorem excepturi voluptas? Delectus cumque ea molestias nostrum, facilis alias aliquam fuga, tenetur fugit aperiam ullam labore reiciendis?",
   },
   nl: {
     hometext: "Koop Tickets Koop Je Tickets Nu Ze Er Nog Zijn",
@@ -36,7 +35,17 @@ let data = {
     nl: "Nederlands",
     abouttextspan: "Over Ons",
     abouttexth2: "Wij willen mensen hen beeld over jullie veranderen!",
-    abouttextp:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quaerat deleniti numquam, veritatis hic enim fugit aliquam, sunt perspiciatis omnis magni, modi laboriosam iure nemo ratione ipsam incidunt doloribus fugiat aliquid eveniet dolorem excepturi voluptas? Delectus cumque ea molestias nostrum, facilis alias aliquam fuga, tenetur fugit aperiam ullam labore reiciendis?",
+    abouttextp: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quaerat deleniti numquam, veritatis hic enim fugit aliquam, sunt perspiciatis omnis magni, modi laboriosam iure nemo ratione ipsam incidunt doloribus fugiat aliquid eveniet dolorem excepturi voluptas? Delectus cumque ea molestias nostrum, facilis alias aliquam fuga, tenetur fugit aperiam ullam labore reiciendis?",
   },
+};
+
+let menu = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
+
+menu.addEventListener("click", function () {
+  navbar.classList.toggle("active");
+});
+
+window.onscroll = () => {
+  navbar.clicklist.remove("active");
 };

@@ -6,7 +6,6 @@ let langmenu = document.querySelector(".lang-menu"),
   btn = document.querySelector(".btn"),
   en = document.querySelector(".en"),
   nl = document.querySelector(".nl"),
-  navhome = document.querySelector("#"),
   abouttextspan = document.querySelector(".about-text-span"),
   abouttexth2 = document.querySelector(".about-text-h2"),
   abouttextp = document.querySelector(".about-text-p");
@@ -30,7 +29,8 @@ let data = {
     nl: "Dutch",
     abouttextspan: "About Us",
     abouttexth2: "We want to change peoples view about you!",
-    abouttextp: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quaerat deleniti numquam, veritatis hic enim fugit aliquam, sunt perspiciatis omnis magni, modi laboriosam iure nemo ratione ipsam incidunt doloribus fugiat aliquid eveniet dolorem excepturi voluptas? Delectus cumque ea molestias nostrum, facilis alias aliquam fuga, tenetur fugit aperiam ullam labore reiciendis?",
+    abouttextp:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quaerat deleniti numquam, veritatis hic enim fugit aliquam, sunt perspiciatis omnis magni, modi laboriosam iure nemo ratione ipsam incidunt doloribus fugiat aliquid eveniet dolorem excepturi voluptas? Delectus cumque ea molestias nostrum, facilis alias aliquam fuga, tenetur fugit aperiam ullam labore reiciendis?",
   },
 
   nl: {
@@ -40,7 +40,8 @@ let data = {
     nl: "Nederlands",
     abouttextspan: "Over Ons",
     abouttexth2: "Wij willen mensen hen beeld over jullie veranderen!",
-    abouttextp: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quaerat deleniti numquam, veritatis hic enim fugit aliquam, sunt perspiciatis omnis magni, modi laboriosam iure nemo ratione ipsam incidunt doloribus fugiat aliquid eveniet dolorem excepturi voluptas? Delectus cumque ea molestias nostrum, facilis alias aliquam fuga, tenetur fugit aperiam ullam labore reiciendis?",
+    abouttextp:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quaerat deleniti numquam, veritatis hic enim fugit aliquam, sunt perspiciatis omnis magni, modi laboriosam iure nemo ratione ipsam incidunt doloribus fugiat aliquid eveniet dolorem excepturi voluptas? Delectus cumque ea molestias nostrum, facilis alias aliquam fuga, tenetur fugit aperiam ullam labore reiciendis?",
   },
 };
 
